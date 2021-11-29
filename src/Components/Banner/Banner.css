@@ -1,0 +1,6 @@
+.banner-bg{
+    background-image: url('../../images/wave.svg');
+    background-position:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
