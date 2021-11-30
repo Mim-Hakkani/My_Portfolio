@@ -36,7 +36,7 @@ const doings =[
 ]
 const MyWork = () => {
     return (
-        <div style={{ background: `linear-gradient(to right, rgb(203 227 251), rgb(239 239 241))`,padding:'15px 0px'}}>
+        <div style={{ background: `linear-gradient(to right, rgb(229 242 249 / 53%), rgb(239, 239, 241))`,padding:'15px 0px'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-12">

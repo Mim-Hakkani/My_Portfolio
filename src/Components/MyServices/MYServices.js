@@ -24,7 +24,7 @@ import './MyServices.css'
 // ]
 const MYServices = () => {
     return (
-        <div style={{backgroundColor:'#fff'}}>
+        <div style={{backgroundColor:'rgb(243 237 237)'}}>
               <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-12">
