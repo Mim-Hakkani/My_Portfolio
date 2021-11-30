@@ -1,5 +1,7 @@
 import React from 'react';
 import './Skills.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 const skills =[
 
     {
@@ -211,6 +213,9 @@ const Skills = () => {
                                  <img 
                                     src={skill.images} 
                                     alt="" 
+                                    data-aos="flip-left"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
                                     // height="100"
                                     width="100%" 
                                     className="img-fluid"

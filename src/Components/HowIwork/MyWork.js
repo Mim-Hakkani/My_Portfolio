@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Howwork.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const doings =[
     {   id:0,
         icon :'far fa-comment-dots',
@@ -35,6 +37,10 @@ const doings =[
      
 ]
 const MyWork = () => {
+
+   useEffect(()=>{
+      AOS.init();
+   })
     return (
         <div style={{ background: `linear-gradient(to right, rgb(229 242 249 / 53%), rgb(239, 239, 241))`,padding:'15px 0px'}}>
             <div className="container">
@@ -56,8 +62,8 @@ const MyWork = () => {
                 <div className="row">
                     {
                        doings.map(doing=><div className="col-md-4">
-                       <div className="what_i_do">
-                         <i className={`${doing.icon}`}></i>
+                       <div className="what_i_do " >
+                         <i className={`${doing.icon}`} data-aos="fade-up" data-aos-duration="1000"></i>
                           <h3>{doing.id}.{doing.title}</h3>
                           <p>{doing.desc}.</p>
                        </div>
