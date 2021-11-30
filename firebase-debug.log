@@ -1,0 +1,21 @@
+[debug] [2021-11-29T17:47:00.507Z] ----------------------------------------------------------------------
+[debug] [2021-11-29T17:47:00.511Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mimcs\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-29T17:47:00.512Z] CLI Version:   9.23.0
+[debug] [2021-11-29T17:47:00.512Z] Platform:      win32
+[debug] [2021-11-29T17:47:00.512Z] Node Version:  v14.17.3
+[debug] [2021-11-29T17:47:00.513Z] Time:          Mon Nov 29 2021 23:47:00 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-29T17:47:00.513Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-29T17:47:00.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-29T17:47:00.525Z] > authorizing via signed-in user (mim.cse32@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mimcs\portfolio
+

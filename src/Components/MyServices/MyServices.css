@@ -1,0 +1,14 @@
+.service-icons{
+    font-size: 21px;
+    height: 55px;
+    width: 100px;
+    border: 1px solid #c131cb;
+    color: #c131cb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 14px;
+
+}

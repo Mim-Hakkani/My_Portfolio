@@ -1,0 +1,23 @@
+.what_i_do{
+    text-align: center;
+}
+.what_i_do i {
+    font-size: 69px;
+    border: 1px solid #FF00FF;
+    height: 160px;
+    width: 161px;
+ 
+    border-radius: 50%;
+    color: #d527cf;
+    /* padding-top: 45px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+}
+.what_i_do h3{
+
+}
+.what_i_do p{
+
+}
