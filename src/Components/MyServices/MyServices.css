@@ -10,5 +10,13 @@
     justify-content: center;
     padding: 15px;
     margin-right: 14px;
+   
 
+}
+.service-text {
+    font-family: Railway;
+    font-weight: 500;
+}
+.service-text h3{
+    font-weight: bold;
 }

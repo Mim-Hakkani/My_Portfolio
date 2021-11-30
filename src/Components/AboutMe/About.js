@@ -2,6 +2,14 @@ import React from 'react';
 import './About.css'
 const About = () => {
     return (
+      <>
+        <div className="container">
+          <div className="row">
+             <div className="col-md-12 py-5">
+               <h1>Educational Qualification</h1>
+             </div>
+          </div>
+        </div>
         <div class="timeline">
         <div class="containerr left">
           <div class="content">
@@ -43,7 +51,7 @@ const About = () => {
         </div>
     
       </div>
-      
+      </>
     );
 };
 

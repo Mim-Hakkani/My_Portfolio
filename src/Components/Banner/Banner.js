@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner-bg">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                         <div className="banner-text text-center text-white mt-5">
                             <h1 className="">Hellow,, <br/>Golam Hakkani Mim</h1>
                             <h4> I'm a
@@ -20,8 +20,8 @@ const Banner = () => {
                             </h4>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        <img src={mim} alt="" height="500" />
+                    <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                        <img src={mim} alt="" height="600" width="100%"/>
                     </div>
                 </div>
             </div>

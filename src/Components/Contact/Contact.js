@@ -17,15 +17,15 @@ const Contact = () => {
           e.target.reset()
         }
     return (
-        <div>
-            <div className="container bg-light text-start">
+        <div style={{ background: `linear-gradient(to right, #d9a7c7, #fffcdc)`}}>
+            <div className="container  text-start my-3 py-5">
                 <div className="row">
-                    <div className="col-md-6 col-sm-6 col-xs-12  p-3 mb-2">
+                    <div className="col-md-6 col-sm-6 col-xs-12  p-3 mb-2 border border-1">
                        <h5>Country  : Bangladesh</h5>
                        <h5>City     : Rajshahi </h5>
                        <h5>Streat   :  12/1 Jamira,Puthia,Rajshahi</h5>
                     </div>
-                    <div className="col-md-6 col-sm-6 col-xs-12  p-3 mb-2">
+                    <div className="col-md-6 col-sm-6 col-xs-12  p-3 mb-2 border border-1">
                        <h5>Email       : mim.cse32@gmail.com</h5>
                        <h5>Phone      : (+880-1816910886) </h5>
                        <h5>Social : 
@@ -38,7 +38,7 @@ const Contact = () => {
                     
                 </div>
             </div>
-            <div className="container bg-secondary p-4">
+            <div className="container  p-4">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-xs-12">
                     <form ref={form} onSubmit={sendEmail}>
